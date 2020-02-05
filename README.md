@@ -4,9 +4,9 @@
  plus grands mines en Asie, elles furent abandonnées en 1970.
 
 ## BUT DU JEU
-Plongé dans le mont, les mines et les temples de MATSUO, le joueur incarnera un personnage qui y direigera durant
-son gameplay. Il explorera différents endroits, découvriras des trésors, mais aura aussi à maintenir sa survie en 
-gagnant ses combats avec différents monstres dans un but de pouvoir explorer l'endroit en paix et ainsi y aboutir 
+Plongé dans le mont, les mines et les temples de MATSUO, le joueur incarnera un personnage qui y dirigera durant
+son gameplay. Il explorera différents endroits, découvrira des trésors, mais aura aussi à maintenir sa survie en 
+gagnant ses combats avec divers monstres dans le but de pouvoir explorer l'endroit en paix et ainsi y aboutir 
 à sa quête (connaître l'histoire et les mystères des lieux)
 
 ### CAHIER DES CHARGES
@@ -34,7 +34,7 @@ Tous ce que notre programme doit savoir faire.
        * Le joueur aura à découvrir des trésors, des potions magiques qui  lui permettront de faire évoluer son personnage
        et être de plus en plus performant, ainsi que des notes lui faisant savoir davantage les lieux, ses mystères et son
        histoire.
-       * Le joueur doit obligatoirement posséder  certains objets pour mettre à termes certains des monstres.
+       * Le joueur doit obligatoirement posséder certains objets pour mettre à termes certains des monstres.
        * Le joueur aura en possession un inventaire lui permettra de stocker les objets qu’il ramasse et pourra le consulter
        pour visualiser l’état de ses objets.
        * Les différents monstres que le joueur aura à affronter : 
@@ -43,8 +43,14 @@ Tous ce que notre programme doit savoir faire.
           * Hagakure : est sensible au froid; PouvSam pour le tuer
           * Metal Knight : est sensible au chaud; PouvKameha pour le tuer
        * Une partie sera considérée comme gagnée  lorsque le joueur aura tué tous les monstres du niveau.
-* __A noter qu'il y'a des choses que notre programme ne pourra pas faire:__<br>
- 
+       
+  * __A noter qu'il y'a des choses que notre programme ne pourra pas faire:__
+       * Notre programme ne va gérer qu'un seul niveau à la fois.
+       * Le joueur ne peut pas se battre contre deux ennemis en même temps.
+       * Il sera impossible au joueur de changer le mode du jeu (Facile, moyen, difficile) s’il a déjà choisi un niveau.
+       * Le joueur ne pourra pas éditer l'acteur principal.
+       * Le joueur ne pourra pas interagir avec certains éléments du jeu.
+         
  ### Auteur
  [AL-FAHAMI TOIHIR](https://alfahami.github.io/ "Fahmi's resume and protfolio page")
  
